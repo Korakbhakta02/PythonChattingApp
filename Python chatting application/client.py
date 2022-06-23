@@ -1,8 +1,4 @@
-# Program to send request to the server
-# Author @inforkgodara
-
 import socket
-
 s = socket.socket()
 host = input(str('Enter hostname or host IP : '))
 port = 8080
